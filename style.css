@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.landing{
+    background-image:url("img/background1.jpg");
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+    
+}
+ 
+header a{
+    text-decoration:none;
+    color:goldenrod;
+    font-size:120%;
+    
+    }
+     header h3{
+        color:snow;
+        font-family:italic;
+        font-size:150%;
+        font-weight:bolder;
+     }
+
+    
+
+    header{
+        display:flex;
+        justify-content: right;
+        justify-content: space-between;
+        padding:1.5%;
+    }
+
+    nav{
+        width:50%;
+        display:flex;
+        justify-content:space-around;
+        
+    }
+    nav a:hover{
+        color:red;
+    }
+
+    .maintext{
+        display:flex;
+        color:white;
+        flex-direction:column;
+        text-align:right;
+        justify-content:center;
+        height:50vh;
+        padding:3%;
+        
+    }
+    div button{
+        width:15%;
+        padding:1%;
+        border-radius:10px;
+        background-color:olive;
+        color:white;
+        border:1px olive;
+    }
+    .tagline{
+        color:chocolate;
+        font-size:200%;
+        font-weight:bolder;
+    }
+     .maintext div{
+        margin:1%;
+     }
+
+     .menu{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        background:linear-gradient(to right,rgb(94,48,48),rgb(157, 113, 2) ,rgb(94,48,48));
+        color:black;
+    }
+    
+    #menuheading {
+        color:chocolate;
+        color:chocolate;
+        background:linear-gradient(to right,rgb(94,48,48), rgb(157, 113, 2),rgb(94,48,48));
+        font-size:3.5em;
+        font-weight:bolder;
+        color:brown;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu th{
+        color:chocolate;
+        font-size: 1.8em;
+        font-weight:bolder;
+    }
+    
+    table{
+        width:100%;
+        padding:1em;
+    }
+    
+    .menu tr{
+        display:flex;
+        justify-content: center;
+        margin-top:.8em;
+    }
+    
+    .menu td:nth-child(1){
+        flex:1;
+        justify-self: left;
+    }
+    
+    
+    .menu td:nth-child(2){
+        justify-self: right;
+    }
+    
+    .maincourse{
+        grid-row:span 2;
+    }
+
+    .locations{
+        background:linear-gradient(to right,rgb(94,48,48), rgb(157, 113, 2),rgb(94,48,48));
+        color:var(--white);
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .locations h2{
+        color:chocolate;
+        margin-bottom: .8em;
+    }
+    
+    .locations div{
+        flex:1;
+        padding:1em;
+        min-width:220px;
+    }
+    
+ #locheading{
+    background:linear-gradient(to right,rgb(94,48,48), rgb(157, 113, 2),rgb(94,48,48));
+}
+    #email{
+        padding:40px;
+        text-align:center;
+        background:linear-gradient(to right,rgb(94,48,48), rgb(157, 113, 2),rgb(94,48,48));
+    }
+
+   
